@@ -1,0 +1,25 @@
+{
+  "name": "icagile",
+  "version": "1.0.0",
+  "description": "ICAgile Training Slides",
+  "main": "ICAgile.html",
+  "scripts": {
+    "build": "npx @marp-team/marp-cli@latest --html ICAgile.md -o index.html",
+    "watch": "npx @marp-team/marp-cli@latest -w --html ICAgile.md -o index.html",
+    "preview": "npx @marp-team/marp-cli@latest -p --html . -o index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savvy-coders/icagile.git"
+  },
+  "author": "matsinet@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savvy-coders/icagile/issues"
+  },
+  "homepage": "https://github.com/savvy-coders/icagile#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.1.0"
+  },
+  "dependencies": {}
+}

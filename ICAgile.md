@@ -146,7 +146,15 @@ footer > a:visited {
     }
 
     img {
-        height: 550px;
+        margin-top: 2.5em;
+        height: 640px;
+    }
+
+    h1 {
+        position: absolute;
+        margin-left: 4em;
+        margin-top: .75em;
+
     }
 </style>
 
